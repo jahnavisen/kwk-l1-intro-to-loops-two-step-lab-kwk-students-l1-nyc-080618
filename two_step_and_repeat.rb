@@ -28,7 +28,7 @@ end
 def how_many_steps?
   steps = 0 
   steps = steps + 1 
-  puts steps
+  puts "steps"
   if steps%2 
     puts "Left"
   elsif puts "Right"
