@@ -27,7 +27,6 @@ end
 
 def how_many_steps?
     steps = 0 
-  loop do 
     puts steps
     steps = steps + 1
   if steps%2 
@@ -38,7 +37,17 @@ def how_many_steps?
   end 
 end
   how_many_steps?
+    steps = 0 
+    puts steps
+    steps = steps + 1
+  if steps%2 
+    puts "Left"
+  elsif puts "Right"
+  sleep(0.5)
+  elsif steps = 6 
+  break 
 def break_dance
+    
   
   # Write a solution that uses the same code as how_many_steps?, but breaks the
   # loop if steps is equal to 6
