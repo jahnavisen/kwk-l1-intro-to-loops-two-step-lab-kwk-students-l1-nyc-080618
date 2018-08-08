@@ -33,7 +33,7 @@ def a_few_more_steps
 end
   a_few_more_steps
 
-def how_many_steps
+def how_many_steps?
     steps = 0
   loop do 
     puts steps
@@ -45,7 +45,7 @@ def how_many_steps
   # Write a loop that fulfills all criteria from Part 3 of the README.md
   end 
 end
-how_many_steps
+how_many_steps?
   
 def break_dance
     steps = 0 
