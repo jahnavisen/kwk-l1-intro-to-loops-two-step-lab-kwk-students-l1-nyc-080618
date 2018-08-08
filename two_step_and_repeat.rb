@@ -13,7 +13,8 @@ end
   first_steps
 
 def a_few_more_steps
-  puts 
+  puts "Right foot steps right and back"
+  puts ""
   
   # Write a loop that outputs the first two sets of steps in the Two-Step
 end
