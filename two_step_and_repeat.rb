@@ -32,7 +32,7 @@ def how_many_steps?
     steps = steps + 1
   if steps%2 
     puts "Left"
-  else puts "Right"
+  elsif puts "Right"
   sleep(0.5)
   # Write a loop that fulfills all criteria from Part 3 of the README.md
   end 
@@ -44,10 +44,10 @@ def break_dance
     steps = steps + 1
   if steps%2 
     puts "Left"
-  else 
+  elsif
     puts "Right"
   sleep(0.5)
-  elsif steps = 6 
+  else steps = 6 
   break 
 end 
  break_dance
