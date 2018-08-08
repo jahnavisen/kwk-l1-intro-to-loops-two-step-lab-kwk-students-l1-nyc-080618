@@ -30,7 +30,6 @@ def how_many_steps?
   loop do 
     puts steps
     steps = steps + 1
-    break steps == 10
   if steps%2 
     puts "Left"
   elsif puts "Right"
