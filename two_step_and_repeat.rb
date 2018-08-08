@@ -36,7 +36,8 @@ def how_many_steps?
   # Write a loop that fulfills all criteria from Part 3 of the README.md
   end 
 end
-  how_many_steps?
+  
+def break_dance
     steps = 0 
     puts steps
     steps = steps + 1
@@ -46,7 +47,8 @@ end
   sleep(0.5)
   elsif steps = 6 
   break 
-def break_dance
+end 
+ break_dance
     
   
   # Write a solution that uses the same code as how_many_steps?, but breaks the
