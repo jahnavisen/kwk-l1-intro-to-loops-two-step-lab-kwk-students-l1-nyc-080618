@@ -26,7 +26,6 @@ end
   a_few_more_steps
 
 def how_many_steps?
-  loop do 
     steps = 0 
     steps = steps + 1 
     puts steps
