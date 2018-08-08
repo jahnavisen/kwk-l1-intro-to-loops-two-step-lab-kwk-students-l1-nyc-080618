@@ -28,13 +28,15 @@ end
 def how_many_steps?
     steps = 0 
   loop do 
-    steps = steps + 1 
     puts steps
+    steps = steps + 1
+    break steps == 10
   if steps%2 
     puts "Left"
   elsif puts "Right"
   sleep(0.5)
   # Write a loop that fulfills all criteria from Part 3 of the README.md
+  end 
 end
   how_many_steps?
 def break_dance
