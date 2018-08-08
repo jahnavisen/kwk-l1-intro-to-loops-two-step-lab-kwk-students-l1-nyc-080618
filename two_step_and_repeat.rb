@@ -13,7 +13,7 @@ end
   first_steps
 
 def a_few_more_steps
-  puts "Right foot steps right and back"
+  puts "Right foot steps back"
   sleep(0.5)
   puts "Left foot crosses over right"
   sleep(0.5)
