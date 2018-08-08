@@ -25,31 +25,31 @@ def a_few_more_steps
 end
   a_few_more_steps
 
-# def how_many_steps?
-#     steps = 0
-#   loop do 
-#     puts steps
-#     steps = steps + 1
-#   if steps%2 
-#     puts "Left"
-#   elsif puts "Right"
-#   sleep(0.5)
-#   # Write a loop that fulfills all criteria from Part 3 of the README.md
-#   end 
-# end
+def how_many_steps?
+    steps = 0
+  loop do 
+    puts steps
+    steps = steps + 1
+  if steps%2 
+    puts "Left"
+  elsif puts "Right"
+  sleep(0.5)
+  # Write a loop that fulfills all criteria from Part 3 of the README.md
+  end 
+end
   
-# def break_dance
-#     steps = 0 
-#     puts steps
-#     steps = steps + 1
-#   if steps%2 
-#     puts "Left"
-#   elsif
-#     puts "Right"
-#   sleep(0.5)
-#   else steps = 6 
-# end 
-# break_dance
-#     # Write a solution that uses the same code as how_many_steps?, but breaks the
-#   # loop if steps is equal to 6
-# end
+def break_dance
+    steps = 0 
+    puts steps
+    steps = steps + 1
+  if steps%2 
+    puts "Left"
+  elsif
+    puts "Right"
+  sleep(0.5)
+  else steps = 6 
+end 
+break_dance
+    # Write a solution that uses the same code as how_many_steps?, but breaks the
+  # loop if steps is equal to 6
+end
