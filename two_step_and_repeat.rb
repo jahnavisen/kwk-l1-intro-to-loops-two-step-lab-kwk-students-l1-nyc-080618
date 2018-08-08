@@ -40,6 +40,7 @@ end
   
 def break_dance
     steps = 0 
+    until steps == 7 
     puts steps
     steps = steps + 1
   if steps%2 
